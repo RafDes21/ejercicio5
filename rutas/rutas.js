@@ -14,7 +14,7 @@ router.post("/productos",(req, res)=>{
     
     contenedor.save(req.body); 
     res.redirect("/");
-    res.sendStatus(201)
+    
    
 })
 
